@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+	<NoWarn>NU1701</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+	<PackageReference Include="AForge.Video.DirectShow" Version="2.2.5" />
+	<PackageReference Include="MaterialSkin.2" Version="2.3.1" />
+    <PackageReference Include="Npgsql" Version="7.0.2" />
+    <PackageReference Include="ZXing.Net" Version="0.16.9" />
+    <PackageReference Include="ZXing.Net.Bindings.Windows.Compatibility" Version="0.16.12" />
+  </ItemGroup>
+
+</Project>
